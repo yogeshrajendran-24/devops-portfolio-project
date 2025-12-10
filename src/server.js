@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("This is my portfolio");
+  res.send("This is my portfolio!!");
 });
 
 app.get("/api/status", (req, res) => {
